@@ -270,20 +270,27 @@ header .navbar {
 }
 .navbar .navbar-brand {
 	float: 	left;
-	margin-top: 12px;
 	outline: none;
 }
 /*Top title*/
 .navbar .navbar-brand h2 {
 	color: #dc3545;
 	text-transform: uppercase;
-	font-size: 55px;
+	font-size: 45px;
 	font-weight: 650;
 	-webkit-transition: all .3s ease 0s;
     -moz-transition: all .3s ease 0s;
     -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
 }
+/*create css for mobile view with mobile screen size*/
+@media (max-width: 768px) {
+	.navbar .navbar-brand h2 {
+		font-size: 30px;
+		margin-top: 1%;
+	}
+}
+
 .navbar .navbar-brand h2 em {
 	font-style: normal;
 	font-size: 16px;
