@@ -1346,3 +1346,13 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
+
+.icma-logo {
+	mix-blend-mode: multiply;
+}
+@media (max-width: 768px) {
+	.icma-logo {
+		max-width: 370px;
+        margin-bottom: 5%;
+	}
+}
