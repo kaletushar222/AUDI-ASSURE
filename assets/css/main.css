@@ -1,0 +1,42 @@
+.icma-logo {
+	mix-blend-mode: multiply;
+}
+@media (max-width: 768px) {
+	.icma-logo {
+		max-width: 370px;
+        margin-bottom: 5%;
+	}
+}
+
+@media (max-width: 767px) {
+  .navbar .container .icma-logo {
+    max-width: 90px;
+    height: auto;
+  }
+}
+
+.icma-logo-2 {
+    margin-left: 5%;
+    max-width: 150px;
+    height: auto;
+}   
+
+@media (max-width: 768px) {
+	.icma-logo-2 {
+		margin-left: 60%;
+        max-width: 75px;
+        height: auto;
+        margin-top: 2%;
+	}
+}
+
+@media (max-width: 768px) {
+    .Modern-Slider .text-content {
+        text-align: left;
+        width: 75%;
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
