@@ -43,6 +43,8 @@
 .navbar-brand {
     background: radial-gradient(circle at center, #ffffff 16%, #00000000 102%);
     padding: 0 3%;
+    left: 15px !important;
+    top: 20px !important;
 }
 
 @media (max-width: 768px) {
