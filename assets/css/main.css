@@ -23,10 +23,9 @@
 
 @media (max-width: 768px) {
 	.icma-logo-2 {
-		margin-left: 60%;
+		    margin-left: 55%;
         max-width: 75px;
         height: auto;
-        margin-top: 2%;
 	}
 }
 
@@ -39,4 +38,16 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+}
+
+.navbar-brand {
+    background: radial-gradient(circle at center, #ffffff 16%, #00000000 102%);
+    padding: 0 3%;
+}
+
+@media (max-width: 768px) {
+  .audi-header-logo {
+      width: 160px;
+      height: 33px;
+  }
 }
