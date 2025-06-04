@@ -1,44 +1,12 @@
 .icma-logo {
 	mix-blend-mode: multiply;
 }
-@media (max-width: 768px) {
-	.icma-logo {
-		max-width: 370px;
-        margin-bottom: 5%;
-	}
-}
-
-@media (max-width: 767px) {
-  .navbar .container .icma-logo {
-    max-width: 90px;
-    height: auto;
-  }
-}
 
 .icma-logo-2 {
     margin-left: 5%;
     max-width: 150px;
     height: auto;
 }   
-
-@media (max-width: 768px) {
-	.icma-logo-2 {
-		    margin-left: 55%;
-        max-width: 75px;
-        height: auto;
-	}
-}
-
-@media (max-width: 768px) {
-    .Modern-Slider .text-content {
-        text-align: left;
-        width: 75%;
-        position: absolute;
-        top: 68%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
 
 .navbar-brand {
     background: radial-gradient(circle at center, #ffffff 16%, #00000000 102%);
@@ -48,8 +16,47 @@
 }
 
 @media (max-width: 768px) {
+  .icma-logo {
+		max-width: 370px;
+    margin-bottom: 5%;
+	}
   .audi-header-logo {
-      width: 160px;
-      height: 33px;
+    width: 160px;
+    height: 33px;
+  }
+  .navbar .container .icma-logo {
+    max-width: 90px;
+    height: auto;
+  }
+  .icma-logo-2 {
+    margin-left: 55%;
+    max-width: 75px;
+    height: auto;
+	}
+  .Modern-Slider .text-content {
+    text-align: left;
+    width: 75%;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Modern-Slider .item-1 .img-fill {
+    background-color: #3f3f3f;
+    background-image: unset;
+    height: 1000px; 
+  }
+  .Modern-Slider .item-2 .img-fill {
+    background-color: #2f2f2f;
+    background-image: unset;
+    height: 1000px;
+  }
+  .Modern-Slider .item-3 .img-fill {
+    background-color: #1f1f1f;
+    background-image: unset;
+    height: 1000px;
+  }
+  .background-header .icma-logo-2 {
+    margin-top: 9px;
   }
 }
